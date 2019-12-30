@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="autoware_vector_map" type="vector_map_loader" name="vector_map_loader" output="screen">
+    <param name="vector_map_path" value="$(arg vector_map_path)"/>
+  </node>
+
+  <node pkg="autoware_vector_map" type="vector_map_visualizer" name="vector_map_visualizer" output="screen">
+  </node>
+</launch>

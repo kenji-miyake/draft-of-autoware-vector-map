@@ -1,0 +1,5 @@
+<launch>
+  <test test-name="test_autoware_vector_map" pkg="autoware_vector_map" type="test_autoware_vector_map">
+    <param name="vector_map_path" value="$(find autoware_vector_map)/res/us_sample.gpkg"/>
+  </test>
+</launch>

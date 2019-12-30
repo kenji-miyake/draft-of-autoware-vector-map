@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>autoware_vector_map</name>
+  <version>0.1.0</version>
+  <description>The autoware_vector_map package</description>
+  <maintainer email="kenji.miyake@tier4.jp">Kenji Miyake</maintainer>
+  <license>Apache 2</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>autoware_vector_map_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>libgdal-dev</depend>
+  <depend>roscpp</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>visualization_msgs</depend>
+
+  <!-- To be replaced by std::filesystem in C++17 -->
+  <depend>libboost-filesystem-dev</depend>
+
+  <test_depend>rostest</test_depend>
+
+  <export>
+  </export>
+</package>

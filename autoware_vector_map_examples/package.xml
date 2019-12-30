@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>autoware_vector_map_examples</name>
+  <version>0.1.0</version>
+  <description>The autoware_vector_map_examples package</description>
+  <maintainer email="kenji.miyake@tier4.jp">Kenji Miyake</maintainer>
+  <license>Apache 2</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>autoware_vector_map</depend>
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+
+  <export>
+  </export>
+</package>
